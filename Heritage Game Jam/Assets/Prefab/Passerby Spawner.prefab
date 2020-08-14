@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2278413165520362651
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2278413165520362653}
+  - component: {fileID: 2278413165520362652}
+  m_Layer: 0
+  m_Name: Passerby Spawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2278413165520362653
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2278413165520362651}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 6.432157, y: -2.8301184, z: -2.0369446}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2278413165520362652
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2278413165520362651}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5b8c77f0709dd54ba29c52c090817aa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  passerbyPrefabs:
+  - {fileID: 4755437520732514893, guid: ec784168ce916cc47b73aac0498a4093, type: 3}
+  - {fileID: 9199542429972359383, guid: e523e859a2e5d2e4fa244cb718cb47f1, type: 3}
+  - {fileID: 7020653970199555177, guid: a87bbfdd6ef42be468f7947a202c8d70, type: 3}
+  - {fileID: 6494584045110605309, guid: d5915fd046a54944885cd1a88ac5ca89, type: 3}
+  - {fileID: 8682983571366598327, guid: 65a41098d5354de4d990f115eaa5a4a0, type: 3}
+  - {fileID: 8600303823183796622, guid: d372d062a6131ac4192dcfb5fb5e7d5f, type: 3}
+  isSpawning: 0
+  timerDuration: 15
